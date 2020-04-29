@@ -1,5 +1,5 @@
 [package]
-name = "contract_call"
+name = "pattern-matching"
 version = "0.1.0"
 authors = ["davidf <dforsten@gmail.com>"]
 edition = "2018"

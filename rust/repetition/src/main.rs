@@ -1,8 +1,6 @@
 macro_rules! o_O {
     (
-        $(
-            $x:expr; [ $( $y:expr ),* ]
-        );*
+        $($x:expr; [ $( $y:expr ),* ]);*
     ) => {
         &[ $($( $x + $y ),*),* ]
     }
